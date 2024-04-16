@@ -1,0 +1,105 @@
+/* QuizAttempter.css */
+
+/* Container styles */
+.quiz-container {
+    margin: auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #020617;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loading-spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #020617;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  /* Question styles */
+  .question-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-container h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .quiz_title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+  }
+  .question-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .question-container li {
+    margin-bottom: 10px;
+  }
+  
+  /* Option styles */
+  label {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Submit button styles */
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+ .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Result display styles */
+  .result-container {
+    margin-top: 20px;
+  }
+  
+  .result-container h1 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .result-container h3 {
+    margin-bottom: 5px;
+  }
+  
+  .result-container button {
+    margin-top: 10px;
+  }
+  

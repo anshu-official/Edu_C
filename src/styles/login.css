@@ -1,0 +1,81 @@
+.login-container {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #020617;
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+  }
+  .login-container2{
+    width: 50%;
+  }
+  .images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+  .login-container input[type="text"],
+  input[type="password"],input[type="email"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 5vh;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login_page {
+    background-color: rgb(4, 92, 223);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 100%;
+  }
+  .new_user{
+    background-color: rgb(4, 92, 223);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-bottom: 3vh;
+    width: 100%;
+  }
+  .label_name{
+    color: white;
+    font-weight: 600;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .login-container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login_header{
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 3vh;
+    color: white;
+  }

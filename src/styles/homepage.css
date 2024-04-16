@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4vw;
+    padding-right: 1vw;
+}
+.navbar_right{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    align-items: center;
+}
+.educraft{
+    text-align: center;
+    font-family:cursive;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+.login{
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.login:hover{
+    text-decoration: underline;
+}
+.section1_home{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #020617;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    height: fit-content;
+}
+.section1_home img{
+    width: 40%;
+}
+.section1_home p{
+    width: 40%;
+}
+.main_text{
+    font-size: 58px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.main_text_color{
+    color: #E468E7;
+}
+.section2_home{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 55vh;
+}
+.section2_inside{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    padding: 2vw;
+    background-color: #020617;
+    height: 40%;
+    border-radius: 50px;
+    box-shadow: grey 8px 8px 8px 0;
+}
+.section2_inside h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section2_inside p{
+    color: white;
+    margin-top: 2px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+.section3_home{
+    padding-top: 2vh;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+.ourservices{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+.services_we_offer{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    margin-top: 0px;
+    font-weight: 300;
+    color: black;
+}
+.services1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.service1{
+    background-color: #0c1538;
+    text-decoration: none;
+    width: 30vw;
+    padding: 1vw;
+    height: 40vh;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 5vh;
+    transition: transform 0.3s ease-in-out;
+}
+.service1:hover{
+    transform: scale(1.07);
+}
+.service1 p{
+    text-align: center;
+}
+.services1 a[href]{
+    text-decoration: none;
+}
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.service1 img{
+   margin: auto;
+}
+.section4_home{
+    padding: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+
+}
+.rate{
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.review{
+    width: 20%;
+    padding: 1vw;
+}
+.review h2{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.comment{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.navbar_left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 40%;
+}

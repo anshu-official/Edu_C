@@ -1,0 +1,136 @@
+.true {
+  padding: 8px 12px;
+  background-color: rgb(14, 231, 14);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+/* QuizCreator.css */
+.container1 {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10vh;
+  padding-top: 3vh;
+  background-color: #020617;
+  border-radius: 50px;
+}
+
+.question1 {
+  margin-bottom: 20px;
+}
+
+.question1 input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.question1 input[type="number"] {
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.options1 {
+  list-style-type: none;
+  padding: 0;
+}
+
+.option1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.option1 input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-remove-btn1 {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.add-remove-btn1:hover {
+  background-color: #0056b3;
+}
+
+.create-quiz-btn1 {
+  display: block;
+  width: 60%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+.create-quiz-btn1:hover {
+  background-color: #218838;
+}
+.heading1 {
+  text-align: center;
+  margin-bottom: 3vh;
+  color: white;
+  font-size: 48px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.title1 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+.title1 a[href] {
+  color: blue;
+  text-decoration: underline;
+}
+.title_box1 {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4vh;
+}
+.title_box1 input {
+  width: 15vw;
+  height: 6vh;
+  border: rgb(185, 180, 180) 1px solid;
+  padding-left: 5px;
+  border-radius: 3px;
+}
+.link_of_quiz {
+  color: blue;
+  text-decoration: underline;
+}
+.student_list {
+  color: white;
+}
+.share-bt {
+  background-color: white;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  margin-left: 1rem;
+}
