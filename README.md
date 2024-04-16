@@ -19,3 +19,7 @@ npm start
 
 cd ../server_new
 npm run dev
+
+## Deployment
+https://edu-craft.vercel.app/
+
